@@ -27,7 +27,7 @@ jobs:
           sudo apt-get update
           sudo apt-get install -y p7zip-full file aria2 curl
 
-      - name: 🔧 تنظیم بافر HTTP (1.5 گیگابایت)
+      - name: 🔧 تنظیم بافر HTTP (1.8 گیگابایت)
         run: |
           git config --global http.postBuffer 1610612736
           git config --global http.lowSpeedLimit 0
